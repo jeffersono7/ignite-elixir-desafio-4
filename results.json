@@ -4,18 +4,25 @@
   "invalid": [],
   "passed": [
     {
-      "describe": "build/4",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-2/desafios/ignite-elixir-desafio-4/test/users/users_test.exs",
-      "line": 28,
-      "module": "Elixir.Flightex.Users.UserTest",
-      "test": "test build/4 when cpf is a integer"
+      "describe": "get/1",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-2/desafios/ignite-elixir-desafio-4/test/users/user_agent_test.exs",
+      "line": 42,
+      "module": "Elixir.Flightex.Users.AgentTest",
+      "test": "test get/1 when the user is found, returns the user"
     },
     {
-      "describe": "build/4",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-2/desafios/ignite-elixir-desafio-4/test/users/users_test.exs",
-      "line": 15,
-      "module": "Elixir.Flightex.Users.UserTest",
-      "test": "test build/4 when all params are valid, returns the user"
+      "describe": "save/1",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-2/desafios/ignite-elixir-desafio-4/test/users/user_agent_test.exs",
+      "line": 18,
+      "module": "Elixir.Flightex.Users.AgentTest",
+      "test": "test save/1 when the user is saves, returns an tuple"
+    },
+    {
+      "describe": "get/1",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-2/desafios/ignite-elixir-desafio-4/test/users/user_agent_test.exs",
+      "line": 55,
+      "module": "Elixir.Flightex.Users.AgentTest",
+      "test": "test get/1 when the user is't founded, returns an error"
     }
   ],
   "skiped": []
