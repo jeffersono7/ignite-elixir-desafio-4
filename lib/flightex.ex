@@ -12,10 +12,4 @@ defmodule Flightex do
 
     Supervisor.start_link(children, [strategy: :one_for_all])
   end
-
-  # def start do
-  #   GenerateId.start_link([])
-  #   UserAgent.start_link(%{})
-  #   BookingAgent.start_link(%{})
-  # end
 end
