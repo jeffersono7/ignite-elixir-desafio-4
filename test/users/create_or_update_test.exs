@@ -4,13 +4,6 @@ defmodule Flightex.Users.CreateOrUpdateTest do
   alias Flightex.Users.{Agent, CreateOrUpdate}
 
   describe "call/1" do
-    setup do
-      Flightex.start()
-      # O Agent.start_link vai iniciar os 2 agents antes do teste
-      # Deve ser implementado para os testes passarem
-      :ok
-    end
-
     test "when all params are valid, return a tuple" do
       params = %{
         name: "Jp",

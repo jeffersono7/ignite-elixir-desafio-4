@@ -4,12 +4,6 @@ defmodule Flightex.Bookings.BookingTest do
   alias Flightex.Bookings.Booking
 
   describe "build/4" do
-    setup do
-      Flightex.start()
-
-      :ok
-    end
-
     test "when all params are valid, returns a booking" do
       {:ok, response} =
         Booking.build(

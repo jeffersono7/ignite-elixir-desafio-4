@@ -4,12 +4,6 @@ defmodule Flightex.Bookings.CreateOrUpdateTest do
   alias Flightex.Bookings.{Agent, CreateOrUpdate}
 
   describe "call/1" do
-    setup do
-      Flightex.start()
-
-      :ok
-    end
-
     test "when all params are valid, returns a valid tuple" do
       params = %{
         complete_date: ~N[2001-05-07 03:05:00],
