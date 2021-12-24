@@ -1,0 +1,22 @@
+{
+  "excluded": [],
+  "failed": [],
+  "invalid": [],
+  "passed": [
+    {
+      "describe": "build/4",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-2/desafios/ignite-elixir-desafio-4/test/users/users_test.exs",
+      "line": 28,
+      "module": "Elixir.Flightex.Users.UserTest",
+      "test": "test build/4 when cpf is a integer"
+    },
+    {
+      "describe": "build/4",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-2/desafios/ignite-elixir-desafio-4/test/users/users_test.exs",
+      "line": 15,
+      "module": "Elixir.Flightex.Users.UserTest",
+      "test": "test build/4 when all params are valid, returns the user"
+    }
+  ],
+  "skiped": []
+}
