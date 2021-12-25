@@ -8,6 +8,9 @@ defmodule Flightex.GenerateId do
   @spec call :: integer()
   def call, do: GenServer.call(__MODULE__, :get)
 
+  @spec next :: :ok
+  def next, do: GenServer.cast(__MODULE__, :next)
+
   # Server
 
   @impl true
