@@ -18,20 +18,6 @@
       "test": "test build/4 when cpf is a integer"
     },
     {
-      "describe": "generate/1",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-2/desafios/ignite-elixir-desafio-4/test/bookings/report_test.exs",
-      "line": 7,
-      "module": "Elixir.Flightex.Bookings.ReportTest",
-      "test": "test generate/1 when called, return the content"
-    },
-    {
-      "describe": "build/4",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-2/desafios/ignite-elixir-desafio-4/test/bookings/booking_test.exs",
-      "line": 7,
-      "module": "Elixir.Flightex.Bookings.BookingTest",
-      "test": "test build/4 when all params are valid, returns a booking"
-    },
-    {
       "describe": "call/1",
       "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-2/desafios/ignite-elixir-desafio-4/test/bookings/create_or_update_test.exs",
       "line": 7,
@@ -39,25 +25,11 @@
       "test": "test call/1 when all params are valid, returns a valid tuple"
     },
     {
-      "describe": "save/1",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-2/desafios/ignite-elixir-desafio-4/test/users/user_agent_test.exs",
-      "line": 18,
-      "module": "Elixir.Flightex.Users.AgentTest",
-      "test": "test save/1 when the user is saves, returns an tuple"
-    },
-    {
-      "describe": "get/1",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-2/desafios/ignite-elixir-desafio-4/test/users/user_agent_test.exs",
-      "line": 42,
-      "module": "Elixir.Flightex.Users.AgentTest",
-      "test": "test get/1 when the user is found, returns the user"
-    },
-    {
-      "describe": "get/1",
-      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-2/desafios/ignite-elixir-desafio-4/test/users/user_agent_test.exs",
-      "line": 55,
-      "module": "Elixir.Flightex.Users.AgentTest",
-      "test": "test get/1 when the user is't founded, returns an error"
+      "describe": "build/4",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-2/desafios/ignite-elixir-desafio-4/test/bookings/booking_test.exs",
+      "line": 7,
+      "module": "Elixir.Flightex.Bookings.BookingTest",
+      "test": "test build/4 when all params are valid, returns a booking"
     },
     {
       "describe": "save/1",
@@ -79,6 +51,41 @@
       "line": 53,
       "module": "Elixir.Flightex.Bookings.AgentTest",
       "test": "test get/1 when the user wasn't found, returns an error"
+    },
+    {
+      "describe": "generate/1",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-2/desafios/ignite-elixir-desafio-4/test/bookings/report_test.exs",
+      "line": 7,
+      "module": "Elixir.Flightex.Bookings.ReportTest",
+      "test": "test generate/1 when called, return the content"
+    },
+    {
+      "describe": "generate_report/2",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-2/desafios/ignite-elixir-desafio-4/test/bookings/report_test.exs",
+      "line": 27,
+      "module": "Elixir.Flightex.Bookings.ReportTest",
+      "test": "test generate_report/2 when given from and to date, generate file with report"
+    },
+    {
+      "describe": "save/1",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-2/desafios/ignite-elixir-desafio-4/test/users/user_agent_test.exs",
+      "line": 18,
+      "module": "Elixir.Flightex.Users.AgentTest",
+      "test": "test save/1 when the user is saves, returns an tuple"
+    },
+    {
+      "describe": "get/1",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-2/desafios/ignite-elixir-desafio-4/test/users/user_agent_test.exs",
+      "line": 42,
+      "module": "Elixir.Flightex.Users.AgentTest",
+      "test": "test get/1 when the user is found, returns the user"
+    },
+    {
+      "describe": "get/1",
+      "file": "/home/jefferson/Documentos/estudos/rocketseat/ignite-elixir/chapter-2/desafios/ignite-elixir-desafio-4/test/users/user_agent_test.exs",
+      "line": 55,
+      "module": "Elixir.Flightex.Users.AgentTest",
+      "test": "test get/1 when the user is't founded, returns an error"
     },
     {
       "describe": "call/1",

@@ -7,6 +7,8 @@ defmodule Flightex do
 
   defdelegate create_or_update_booking(params), to: Bookings.CreateOrUpdate, as: :call
 
+  defdelegate generate_report(from_date, to_date), to: Bookings.Report
+
   def start(_type, _args) do
     children = [GenerateId, BookingAgent, UserAgent]
 
